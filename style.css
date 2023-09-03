@@ -1,0 +1,78 @@
+
+
+.search_bar input[type="text"] {
+    position: relative;
+    left: 20%;
+    top: 25%;
+    width: 50%;
+    background-color: white;
+    color: grey;
+    float: left;
+    height: 40px; 
+    font-size: 24px; 
+  }
+  
+  .search_bar button[type="submit"] {
+    position: relative;
+    left: 20%;
+    top: 25%;
+    float: right;
+    height: 40px; 
+    font-size: 24px; 
+  }
+  
+  
+  
+
+
+
+#navigation-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+#navigation-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+#navigation-buttons a:hover {
+    text-decoration: underline;
+}
+
+
+#products-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.product-card {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card h3 {
+    font-size: 24px;
+}
+
+.product-card p {
+    font-size: 18px;
+}
+
+.product-card button {
+    width: 100%;
+    border: none;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+}
